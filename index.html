@@ -144,9 +144,9 @@
           transparent: true,
           color: modelColor,
         });
-          if (modelName == "skin"){
+          if (modelName.includes("skin"){
             meshMaterial.renderOrder = 2;
-            console.log("skin renderOrder set as 2");
+            console.log(modelName + " renderOrder set as 2");
           }
 
         const meshLoader = new VTKLoader();
