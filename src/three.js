@@ -43438,9 +43438,7 @@ class FileLoader extends Loader {
 		const responseType = this.responseType;
 
 		// start the fetch
-		fetch( req , {
-			mode: 'no-cors'
-		})
+		fetch( req )
 			.then( response => {
 
 				if ( response.status === 200 || response.status === 0 ) {
