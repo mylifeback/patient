@@ -17,6 +17,5 @@ const select = {
   folder: "meningioma"
 };
 
-export models;
-export names;
-export select;
+export {names, models, select};
+
