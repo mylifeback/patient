@@ -39,8 +39,14 @@
         "imports": {
           "three": "./src/three.js",
           "three/addons/": "./src/",
+          "three/addons/lib/": "./src/",
+          "three/addons/controls/": "./src/",
+          "three/addons/loaders/": "./src/",
           "three/addons/jsm/libs/": "./src/",
-          "./libs/": "./src/"
+          "./libs/": "./src/",
+          "./misc/": "./src/",
+          "./src/": "./src/",
+          "./select/": "./select/"
         }
       }
     </script>
@@ -56,7 +62,7 @@
       import { VTKLoader } from "./src/VTKLoader.js";
       // import models from "./models.js";
       // import names from "./names.js";
-      import {models, names, select} from "./data.js";
+      import {models, names, select} from "./select/data.js";
 
       let stats, gui, camera, controls, scene, renderer;
 
