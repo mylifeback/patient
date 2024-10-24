@@ -10,7 +10,8 @@ const models = [a1, a2, a3, a4, a5, a6];
 
 const names = {
   title: "meningioma",
-  topic: "large meningioma"
+  topic: "large meningioma",
+  file: "large"
 };
 
 const select = {

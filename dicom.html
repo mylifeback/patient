@@ -61,13 +61,13 @@
       import { NRRDLoader } from './src/NRRDLoader.js';
       // import { VTKLoader } from "./src/VTKLoader.js";
       // import models from "./models.js";
-      import names from "./names.js";
+      import {models, names, select} from "./data.js";
       let stats, gui, camera, controls, scene, renderer;
 
       document.getElementById("title").textContent = names.title;
       document.getElementById("topic").textContent = names.topic;
-      const file = names.file;
 
+      const file = "https://mylifeback.github.io/large/dicom/" + names.file + ".nrrd";
       // // Register the Service Worker
       // registerSW();
 
