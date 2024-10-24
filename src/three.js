@@ -43439,7 +43439,7 @@ class FileLoader extends Loader {
 
 		// start the fetch
 		fetch( req , {
-			mode: 'no-cors'
+			mode: 'cors'
 		})
 			.then( response => {
 
