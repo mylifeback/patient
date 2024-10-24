@@ -14,7 +14,7 @@ const names = {
 };
 
 const select = {
-
+  folder: "meningioma"
 };
 
 export models;
